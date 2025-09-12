@@ -307,8 +307,20 @@ export default function Lab1() {
           />
           <br />
           <label htmlFor="wd-text-fields-dob"> Date of birth: </label>
-          <input type="date" defaultValue="2000-01-21" id="wd-text-fields-dob" />
+          <input
+            type="date"
+            defaultValue="2000-01-21"
+            id="wd-text-fields-dob"
+          />
           <br />
+          <label htmlFor="file-upload">Choose a file:</label>
+          <input
+            type="file"
+            id="file-upload"
+            name="file-upload"
+            accept=".jpg, .png, .pdf"
+            multiple
+          />
         </form>
         <h4>Anchor tag</h4>
         Please
